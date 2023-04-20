@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de Campos</title>
+</head>
+
+<body>
+    <main>
+        <h2>Validador de Campos</h2>
+        <form action="" method="get" id="form">
+            <input type="text" id="infouser" placeholder="Insira o valor (E-mail ou CPF)">
+            <label for="validator-type"></label>
+            <select id="validator-type" name="validator-type">
+                <option value="email">E-mail</option>
+                <option value="cpf">CPF</option>
+            </select>
+            <button type="submit" id="submitbtn">Validar</button>
+        </form>
+        <p id="advice">Insira o valor, opção e clique em validar.</p>
+
+    </main>
+
+    <script src="/src/main.js" type="module"></script>
+</body>
+
+</html>
