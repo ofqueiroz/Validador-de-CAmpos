@@ -1,32 +1,40 @@
 * {
     box-sizing: border-box;
-    background-color: rgba(57, 43, 50, 0.8);
 }
 
-main {
+body {
+    background-image: url("/src/img/minimalist-background-twilight-breeze-digital-art-2k-wallpaper-uhdpaper.com-193@0@e.jpg");
+    background-repeat: no-repeat;
+}
+
+ main {
     display: flex;
     flex-direction: column;
-    background-color: rgba(57, 43, 50, 0.2);
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 100px;
     border-radius: 50px;
+    border: 2px solid black;
     width: 500px;
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 #validator-type {
     display: flex;
     flex-direction: column;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 h2 {
     color: white;
-    background-color: rgba(57, 43, 50, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     padding: 10px 20px;
     text-align: center;
+    border: 1px solid black;
 }
 
 form {
@@ -35,14 +43,21 @@ form {
     align-items: center;
     padding: 30px;
     border-radius: 20px;
-    background-color: rgba(57, 43, 50, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
 }
 
 #infouser {
-    background-color: rgba(203, 178, 191, 0.8);
+    background-color: white;
     padding: 10px;
     border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.5);
 }
+
+.placeholder-color {
+    color: white; /* Defina a cor desejada */
+  }
 
 #validator-type {
     color: white;
@@ -50,20 +65,23 @@ form {
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: rgba(57, 43, 50, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
 }
 
 #submitbtn {
     color: white;
-    background-color: rgba(57, 43, 50, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 #advice {
     color: white;
-    background-color: rgba(57, 43, 50, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 10px;
     text-align: center;
+    border: 1px solid black;
 }

@@ -17,9 +17,9 @@ submitBtn.addEventListener('click', (event) => {
     }
   } else if (selectedOption === 'cpf') {
     if (validator.isTaxID(infoUser, 'pt-BR')) {
-      advice.innerHTML = 'Este CPF é válido';
+      advice.innerHTML = 'Este CPF/CNPJ é válido';
     } else {
-      advice.innerHTML = 'Este CPF não é válido';
+      advice.innerHTML = 'Este CPF/CNPJ não é válido';
     }
   }
 });
